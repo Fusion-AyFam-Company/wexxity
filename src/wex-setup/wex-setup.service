@@ -1,0 +1,22 @@
+[Unit]
+Description=Wex Operating System First Boot Setup
+After=network.target systemd-user-sessions.service
+Before=getty@tty1.service display-manager.service
+Conflicts=getty@tty1.service
+# Run only if setup binary exists AND setup has not been completed yet
+ConditionPathExists=/usr/local/bin/wex-setup
+ConditionPathExists=!/etc/wex-setup-done
+
+[Service]
+Type=oneshot
+ExecStart=/usr/bin/python3 /usr/local/bin/wex-setup
+StandardInput=tty
+StandardOutput=tty
+StandardError=journal+console
+TTYPath=/dev/tty1
+TTYReset=yes
+TTYVHangup=yes
+TTYVTDisallocate=yes
+
+[Install]
+WantedBy=multi-user.target

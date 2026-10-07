@@ -1,18 +1,17 @@
 # Wex OS (Genesis 1.0)
 
 ```
-                                                                                   
-                                  
-                                  
- /$$  /$$  /$$  /$$$$$$  /$$   /$$
-| $$ | $$ | $$ /$$__  $$|  $$ /$$/
-| $$ | $$ | $$| $$$$$$$$ \  $$$$/ 
-| $$ | $$ | $$| $$_____/  >$$  $$ 
-|  $$$$$/$$$$/|  $$$$$$$ /$$/\  $$
- \_____/\___/  \_______/|__/  \__/
-                                  
-                                  
-                                    
+                                                               /$$                        
+                                                              | $$                        
+ /$$  /$$  /$$  /$$$$$$  /$$   /$$        /$$$$$$$  /$$$$$$  /$$$$$$   /$$   /$$  /$$$$$$ 
+| $$ | $$ | $$ /$$__  $$|  $$ /$$/       /$$_____/ /$$__  $$|_  $$_/  | $$  | $$ /$$__  $$
+| $$ | $$ | $$| $$$$$$$$ \  $$$$/       |  $$$$$$ | $$$$$$$$  | $$    | $$  | $$| $$  \ $$
+| $$ | $$ | $$| $$_____/  >$$  $$        \____  $$| $$_____/  | $$ /$$| $$  | $$| $$  | $$
+|  $$$$$/$$$$/|  $$$$$$$ /$$/\  $$       /$$$$$$$/|  $$$$$$$  |  $$$$/|  $$$$$$/| $$$$$$$/
+ \_____/\___/  \_______/|__/  \__/      |_______/  \_______/   \___/   \______/ | $$____/ 
+                                                                                | $$      
+                                                                                | $$      
+                                                                                |__/      
 ```
 
 **Wex** is a modern, modular Linux operating system based on **Debian 13 (Trixie)**, engineered for flexibility, speed, and personalized setup. On its first boot, Wex features a custom terminal-based setup experience (`wex-setup`) that walks you through user creation, network configuration (Ethernet & Wi-Fi scanning), timezone selection, and desktop environment installation.

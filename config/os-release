@@ -1,0 +1,12 @@
+NAME="Wex"
+VERSION="1.0"
+ID=wex
+ID_LIKE=debian
+PRETTY_NAME="Wex GNU/Linux 1.0 (Genesis - Debian 13 Trixie Base)"
+VERSION_ID="1.0"
+HOME_URL="https://wex-os.org"
+SUPPORT_URL="https://wex-os.org/support"
+BUG_REPORT_URL="https://wex-os.org/bugs"
+PRIVACY_POLICY_URL="https://wex-os.org/privacy"
+DEBIAN_CODENAME=trixie
+LOGO=wex-logo
