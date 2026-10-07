@@ -1,4 +1,4 @@
-# Wex OS (Genesis 1.0)
+# Wex OS (Genesis 2.0)
 
 ```
                                   
